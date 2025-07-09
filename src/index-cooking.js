@@ -3,8 +3,8 @@
   const shaderResp = await fetch('https://jackzhucu.github.io/HeatDistortionEffect/src/shaders/haze-cooking.frag');
   const shader     = await shaderResp.text();
 
-  import {createCanvas} from './utils/canvas.js';
-  import Haze from './haze.js';
+  import {createCanvas} from './utils/canvas';
+  import Haze from './haze';
   
   let canvas=document.querySelector('.background-canvas');
   
