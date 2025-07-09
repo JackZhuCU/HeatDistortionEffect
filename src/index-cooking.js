@@ -1,3 +1,5 @@
+console.log("✅ index-cooking.js has been loaded as a module");
+
 import {createCanvas} from './utils/canvas.js';
 import Haze from './haze.js';
 import shader from './shaders/haze-cooking.frag';
