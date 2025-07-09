@@ -1,4 +1,4 @@
-import * as WebGL from "./webgl";
+import * as WebGL from "./webgl.js";
 
 function GL(canvas,options,vert,frag){
   this.init(canvas,options,vert,frag);
