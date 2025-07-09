@@ -7,25 +7,25 @@ let canvas=document.querySelector('.Background-canvas');
 let textureAlign={x:0.5,y:0.9};
 let textures=[
   {
-    file:'img/cooking.jpg',
+    file:'https://cdn.jsdelivr.net/gh/JackZhuCU/HeatDistortionEffect/demo/img/cooking.jpg',
     name:'image',
     align:textureAlign,
     scale:{x:1,y:1}
   },
   {
-    file:'img/cooking-blur.jpg',
+    file:'https://cdn.jsdelivr.net/gh/JackZhuCU/HeatDistortionEffect/demo/img/cooking-blur.jpg',
     name:'blur',
     align:textureAlign,
     scale:{x:0.8,y:0.8}
   },
   {
-    file:'img/cooking-maps.jpg',
+    file:'https://cdn.jsdelivr.net/gh/JackZhuCU/HeatDistortionEffect/demo/img/cooking-maps.jpg',
     name:'maps',
     align:textureAlign,
     scale:{x:0.05,y:0.05},
   },
   {
-    file:'img/noise.png',
+    file:'https://cdn.jsdelivr.net/gh/JackZhuCU/HeatDistortionEffect/demo/img/noise.png',
     name:'noise',
     repeat:true,
     fill:false,
