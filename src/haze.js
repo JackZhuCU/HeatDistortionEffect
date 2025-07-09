@@ -1,7 +1,7 @@
 import GL from './utils/gl-obj';
 import vert from './shaders/simple.vert';
 
-import {createCanvas} from './utils/canvas';
+import {createCanvas} from './utils/canvas.js';
 import {assign,throttle} from 'lodash';
 import fill from './utils/fill';
 import EventDispatcher from './utils/event-dispatcher';
