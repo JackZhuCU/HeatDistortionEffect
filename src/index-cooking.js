@@ -2,7 +2,7 @@ import {createCanvas} from './utils/canvas';
 import Haze from './haze';
 import shader from './shaders/haze-cooking.frag';
 
-let canvas=document.querySelector('.Background-canvas');
+let canvas=document.querySelector('.background-canvas');
 
 let textureAlign={x:0.5,y:0.9};
 let textures=[
