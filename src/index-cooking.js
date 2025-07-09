@@ -1,5 +1,5 @@
-import {createCanvas} from './utils/canvas';
-import Haze from './haze';
+import {createCanvas} from './utils/canvas.js';
+import Haze from './haze.js';
 import shader from './shaders/haze-cooking.frag';
 
 let canvas=document.querySelector('.background-canvas');
