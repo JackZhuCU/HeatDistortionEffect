@@ -42,12 +42,6 @@ import Haze from './haze.js';
     shader,    // use the fetched text
     textures,
   });
-    
-  let haze=new Haze({
-    canvas,
-    shader,
-    textures,
-  });
   
   haze.gl.createUniform('1i','noiseSize',256);
   
